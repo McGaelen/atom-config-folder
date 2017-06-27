@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+        "spec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/apm-install-dir-117031-1374-1ui697s"
+    ]
+  ],
+  "_from": "../d-117031-1374-1twpwbo/package.tgz",
+  "_id": "genesis-syntax@1.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/genesis-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+    "spec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117031-1374-1twpwbo/package.tgz",
+  "_shasum": "bc7626bdecd13cb46ba317508a43ce582733f799",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117031-1374-1twpwbo/package.tgz",
+  "_where": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/apm-install-dir-117031-1374-1ui697s",
+  "bugs": {
+    "url": "https://github.com/jmcalaway/atom-genesis-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A visual hierarchy that even designers can agree with.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13"
+  },
+  "homepage": "https://github.com/jmcalaway/atom-genesis-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "genesis-syntax",
+  "optionalDependencies": {},
+  "readme": "# genesis-syntax theme\n\nA syntax theme that is both efficient and easy-on-the-eyes. Let it be personal preference, but the aim here is to create a visual hierarchy that even designers can agree with.\n\n![A screenshot of your theme](https://github.com/jmcalaway/atom-genesis-syntax/raw/master/genesis-syntax-sample.jpg)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcalaway/atom-genesis-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.9"
+}

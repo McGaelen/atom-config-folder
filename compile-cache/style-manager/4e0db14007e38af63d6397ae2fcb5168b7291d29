@@ -1,0 +1,1 @@
+{"source":"atom-pane .tab-bar .tab .title[data-path]:before {\n  margin-right: 5px;\n  vertical-align: top;\n  -webkit-font-smoothing: antialiased;\n}\natom-pane .tab-bar .tab.temp .title[data-path]:before {\n  font-style: normal;\n}\n"}

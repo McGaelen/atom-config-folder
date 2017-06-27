@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+        "spec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/apm-install-dir-117318-4674-dulsds.mpwzkkpgb9"
+    ]
+  ],
+  "_from": "../d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+  "_id": "language-scheme@1.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-scheme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+    "spec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+  "_shasum": "a03f0eae6340824d3ebed78178697bfc56d9fd14",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/d-117318-4674-tcxkqf.cawlt2zkt9/package.tgz",
+  "_where": "/private/var/folders/jr/jvy5_rdd1gqcs9ms_rd74dzh0000gn/T/apm-install-dir-117318-4674-dulsds.mpwzkkpgb9",
+  "bugs": {
+    "url": "https://github.com/backjo/language-scheme/issues"
+  },
+  "dependencies": {},
+  "description": "A scheme syntax highlighter",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/backjo/language-scheme#readme",
+  "license": "MIT",
+  "name": "language-scheme",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "# Scheme language support in Atom\n\nAdds syntax highlighting to Scheme files in Atom.\n\nOriginally converted from the [Scheme TextMate bundle](https://github.com/textmate/scheme.tmbundle)\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backjo/language-scheme.git"
+  },
+  "version": "1.4.0"
+}
