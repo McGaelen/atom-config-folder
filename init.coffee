@@ -9,12 +9,14 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+{CompositeDisposable} = require 'atom'
 
 c = atom.config
+subscriptions = new CompositeDisposable
 
 # Shows/hides files that are git ignored in the tree view.
-atom.commands.add 'atom-text-editor', 'tree-view:hide-git-ignored-files', ->
+subscriptions.add atom.commands.add 'atom-text-editor', 'tree-view:hide-git-ignored-files', ->
     c.set('tree-view.hideVcsIgnoredFiles', true)
 
-atom.commands.add 'atom-text-editor', 'tree-view:show-git-ignored-files', ->
+subscriptions.add atom.commands.add 'atom-text-editor', 'tree-view:show-git-ignored-files', ->
     c.set('tree-view.hideVcsIgnoredFiles', false)
