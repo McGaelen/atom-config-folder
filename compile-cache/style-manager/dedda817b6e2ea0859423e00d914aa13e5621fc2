@@ -1,1 +1,0 @@
-{"source":".git-control {\n  color: #9da5b4;\n  background: #282c34;\n}\n.git-control pre {\n  padding: 0;\n  font-size: 11px;\n  color: inherit;\n  background: inherit;\n}\n.git-control .invisible {\n  display: none;\n}\n.git-control .clickable {\n  cursor: pointer;\n}\n.git-control input[type='checkbox'] {\n  width: auto;\n  margin-right: 5px;\n  vertical-align: top;\n}\n"}

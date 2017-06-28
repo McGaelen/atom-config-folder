@@ -10,18 +10,11 @@
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
 
-atom.commands.add 'tree-view', 'tree-view:hide-vcs-ignored-files', ->
-    atom.config.set('tree-view', hideVcsIgnoredFiles, true)
+c = atom.config
 
+# Shows/hides files that are git ignored in the tree view.
+atom.commands.add 'atom-text-editor', 'tree-view:hide-git-ignored-files', ->
+    c.set('tree-view.hideVcsIgnoredFiles', true)
 
-
-atom.commands.add 'tool-panel tree-view', 'tree-view:show-vcs-ignored-files', ->
-    atom.config.set('tree-view', hideVcsIgnoredFiles, false)
-
-atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', ->
-  return unless editor = atom.workspace.getActiveTextEditor()
-
-  selection = editor.getLastSelection()
-  clipboardText = atom.clipboard.read()
-
-  selection.insertText("[#{selection.getText()}](#{clipboardText})")
+atom.commands.add 'atom-text-editor', 'tree-view:show-git-ignored-files', ->
+    c.set('tree-view.hideVcsIgnoredFiles', false)
