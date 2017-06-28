@@ -17,7 +17,7 @@
     titleBar: "custom"
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 12
+    fontSize: 13
     lineHeight: 1.4
     scrollPastEnd: true
     showIndentGuide: true
@@ -35,7 +35,7 @@
     cppCompiler: "clang++"
     cppCompilerOptions: "-g -Wall"
   "linter-ui-default":
-    panelHeight: 99.5
+    panelHeight: 69
     showProviderName: true
   minimap:
     independentMinimapScroll: true

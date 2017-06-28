@@ -11,12 +11,12 @@
 #     console.log "Saved! #{editor.getPath()}"
 
 atom.commands.add 'tree-view', 'tree-view:hide-vcs-ignored-files', ->
-    atom.config.set('tree-view', hideVcsIgnoredFiles, true)
+  atom.config.set('tree-view.hideVcsIgnoredFiles', true)
 
 
 
 atom.commands.add 'tool-panel tree-view', 'tree-view:show-vcs-ignored-files', ->
-    atom.config.set('tree-view', hideVcsIgnoredFiles, false)
+  atom.config.set('tree-view', hideVcsIgnoredFiles, false)
 
 atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', ->
   return unless editor = atom.workspace.getActiveTextEditor()
