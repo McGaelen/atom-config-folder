@@ -6,9 +6,6 @@
     audioBeep: false
     closeEmptyWindows: false
     disabledPackages: [
-      "fonts"
-      "wrap-guide"
-      "git-control"
       "autocomplete-clang"
       "autocomplete-swift"
     ]

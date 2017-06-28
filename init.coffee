@@ -10,9 +10,11 @@
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
 
-atom.commands.add 'atom-text-editor', 'tree-view:hide-git-ignored-files', ->
-    atom.config.set('tree-view.hideVcsIgnoredFiles', true)
+c = atom.config
 
+# Shows/hides files that are git ignored in the tree view.
+atom.commands.add 'atom-text-editor', 'tree-view:hide-git-ignored-files', ->
+    c.set('tree-view.hideVcsIgnoredFiles', true)
 
 atom.commands.add 'atom-text-editor', 'tree-view:show-git-ignored-files', ->
-    atom.config.set('tree-view.hideVcsIgnoredFiles', false)
+    c.set('tree-view.hideVcsIgnoredFiles', false)
