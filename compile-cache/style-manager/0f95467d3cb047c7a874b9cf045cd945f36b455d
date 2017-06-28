@@ -1,1 +1,0 @@
-{"source":".git-control .logger {\n  width: 100%;\n  height: 34%;\n  overflow-y: scroll;\n  border-top: 1px solid #181a1f;\n  padding: 10px 10px 70px 10px;\n  background: inherit;\n}\n.git-control .logger pre {\n  color: rgba(157, 165, 180, 0.6);\n  border: none;\n}\n.git-control .logger pre.error {\n  color: #ff6347;\n}\n"}
